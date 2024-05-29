@@ -1,0 +1,2 @@
+-- Найти цвета(Color) из таблицы Production.Product, где суммарная и средняя стоимость товаров больше 1000 и 100 соответственно
+SELECT DISTINCT("Color") FROM "Production"."Product" WHERE "StandardCost" > 100 AND "StandardCost" > 1000 AND "StandardCost" != 0
